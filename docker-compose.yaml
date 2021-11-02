@@ -1,7 +1,9 @@
 version: "3.7"
+
 services:
+
   web:
-    build: app
+    build: ./app/Dockerfile
     ports: 
       - '80:80'
     volumes:
