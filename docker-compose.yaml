@@ -3,7 +3,7 @@ version: "3.7"
 services:
 
   web:
-    build: ./app/Dockerfile
+    image: php:8.0.7-apache
     ports: 
       - '80:80'
     volumes:
