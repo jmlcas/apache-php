@@ -3,9 +3,9 @@ version: "3.7"
 services:
 
   web:
-    image: php:8.0.7-apache
+    image: php:apache
     ports: 
-      - '80:80'
+      - '7000:80'
     volumes:
-      - ./app:/var/www/html/
+      - ./html:/var/www/html/
       
