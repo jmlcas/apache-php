@@ -1,5 +1,5 @@
 # PHP application with Apache2
 
-Ver en "localhost:7000"
+Ver en "localhost"
 
 
